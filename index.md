@@ -19,7 +19,7 @@ We use ***~~Context~~*** to mark parameters that are linked to the unchecked exc
 We use ***Context*** to mark parameters that are linked to the unchecked exception but not confirmed by Afuera.
 
 |ID|UE-API | Thrown Exception | Parameter List | Remark|
-|--|------------|-------|-------|------|
+|--|--------|-----|-------|------|
 |1|[LinearLayout.\<init\>](https://github.com/afuera/Module-II/blob/main/android.widget.LinearLayout.<init>)|IllegalArgumentException|***~~Context~~***, AttributeSet, int|TP|
 |2|[Allocation.copyFromUnchecked](https://github.com/afuera/Module-II/blob/main/android.renderscript.Allocation.copyFromUnchecked)|RSIllegalArgumentException|int[]|TN|
 |3|[LocalActivityManager.startActivity](https://github.com/afuera/Module-II/blob/main/android.app.LocalActivityManager.startActivity)|RuntimeException|***String***, Intent| FN  |
