@@ -1,4 +1,4 @@
-## Afuera: Automatically Document Android Framework APIs for Unchecked Exceptions.
+## Afuera: Automatically Documenting Android Framework APIs for Unchecked Exceptions.
 
 ### WorkFlow
    The Overall Approach of Afuera. 
