@@ -5,11 +5,11 @@
               ![Afuera](workflow.png)
               
 ### Tool Support
-We are open-sourcing our code in [Afuera-tool](https://github.com/afuera/Afuera-tool)
+We are open-sourcing our code in [Afuera-tool](https://github.com/afuera/Afuera-tool).
 
 ### Experimental Result
 #### Module I: Profiling UE-APIs,
-UE-APIs are Android framework APIs that can potentially throw unchecked exceptions. The complete list of UE-APIs and their unchecked exceptions can be accessed [here](https://github.com/afuera/ue-api)
+UE-APIs are Android framework APIs that can potentially throw unchecked exceptions. The complete list of UE-APIs and their unchecked exceptions can be accessed [UE-APIs](https://github.com/afuera/ue-api).
 #### Module II: Pinpoint Arguments
 We have shuffled 50 random UE-APIs, and run Module II on them, the details of these 50 samples are in below table.
 
