@@ -5,7 +5,7 @@
               ![Afuera](workflow.png)
               
 ### Tool Support
-We are open-sourcing our code in a sec. We are working on anonymizing the code, which takes some time.
+We are open-sourcing our code in [Afuera-tool](https://github.com/afuera/Afuera-tool)
 
 ### Experimental Result
 #### Module I: Profiling UE-APIs,
