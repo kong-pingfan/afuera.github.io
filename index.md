@@ -11,11 +11,9 @@ We are open-sourcing our code in [Afuera-tool](https://github.com/afuera/Afuera-
 #### Setup
 We rely on the [Soot](https://courses.cs.washington.edu/courses/cse501/01wi/project/sable-thesis.pdf) framework to profile the Android framework UE-API methods (Steps 1-4) and the instrumentation (Step 5).
 We use [FlowDroid](https://orbilu.uni.lu/bitstream/10993/20223/1/far+14flowdroid.pdf) to perform the taint-analysis (Step 6).
-To perform our experiments, we considered the Android framework API level 19, whose last revision was released in year 2013. 
-We did not select newest API levels at the time of the study, since we want to learn the developer usage evolution over the years as detailed in Section IV.B.
-We do not expect any issue of applying Afuera on newer API versions.
+To perform our experiments, we considered the Android framework API level 29 (late 2020) and level 19 (late 2013). 
 
-We retrieve the framework class files from a Nexus 5X emulator instance. 
+We retrieve the framework class files from a Pixel 3 emulator instance. 
 The total analysis time for Module I finishes within 10 minutes. This is substantially faster than collecting unique framework-specific exception instances by applying testing tools on Android apps (example [1](https://ieeexplore.ieee.org/abstract/document/8453100),[2](https://orbilu.uni.lu/bitstream/10993/41499/1/article.pdf)) which might take weeks. 
 #### Module I: Profiling UE-APIs,
 UE-APIs are Android framework APIs that can potentially throw unchecked exceptions. The complete list of UE-APIs and their unchecked exceptions can be accessed [UE-APIs](https://github.com/afuera/ue-api).
